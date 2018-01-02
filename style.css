@@ -1,0 +1,14 @@
+html {
+  font-size: 16px;
+  font-family: "Georgia", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  color: brown;
+  font-size: 28px;
+  font-family: "Times New Roman";
+}
