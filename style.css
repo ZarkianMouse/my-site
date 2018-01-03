@@ -1,14 +1,85 @@
-html {
+* {
   font-size: 16px;
   font-family: "Georgia", sans-serif;
 }
 
 body {
-  background-color: white;
+  margin: 100px, 200px;
+  padding: 100px, 200px;
+}
+
+header {
+  background-color: grey;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+}
+
+table {
+  margin: 20px auto;
+  align: center;
+}
+
+td {
+  margin: 20px;
+  padding: 20px;
 }
 
 h1 {
   color: brown;
   font-size: 28px;
-  font-family: "Times New Roman";
+  font-weight: 10px;
+  font-family: Arial;
+  margin: 20px;
+  padding: 20px;
+}
+
+h2 {
+  color: Sienna;
+}
+
+li {
+  color: black;
+}
+
+.intro {
+  margin: 30px;
+  padding: 50px;
+}
+
+.intro p {
+  margin: 20px;
+  padding: 20px;
+  height: 20px;
+  width: 100%;
+}
+
+.white {
+  color: white;
+}
+
+.media {
+  color: black;
+  font-weight: normal;
+}
+
+h1, h2, .white, .inpic, #pic {
+  text-align: center;
+}
+
+.inpic {
+  height: 5px;
+  width: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#projects {
+  margin: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
 }
